@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;700&display=swap');
+
+:root{
+	--gold: #f4bd76;
+	--gold2: #f6cd8f;
+	--gray: #ffffff80;
+	--gray2: #f7d9d990;
+	--black1: #1a1b1f;
+	--black2: #30553B;
+	--shadow: 0 8px 8px;
+	--color_shadow: #00000033;
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.container{
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 100px 0;
+	height: auto;
+}
+
+.container--modifier{
+	width: 60%;
+}
+
+.hero {
+	width: 100%;
+	min-height: 100vh;
+	background: linear-gradient(180deg, #30553B 0%, #1a1b1f 100%);
+}
